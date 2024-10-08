@@ -1,9 +1,24 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function fizzy(num){
+  if (num % 3 === 0 && num % 5 === 0) {
+      return "FizzBuzz";
+  } else if (num % 3 === 0) {
+      return "Fizz";
+  } else if ( num % 5 === 0) {
+      return "Buzz";
+  } else {
+      return num;
+  }
+}
 
+fizzy(12)
+fizzy(20)
+fizzy(15)
+fizzy(7)
 
-
+   
 
 /**********************************
  *      OUR CODE GOES BELOW.      *
